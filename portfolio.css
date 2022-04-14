@@ -119,8 +119,16 @@ a{
 }
 .name h1{
     font-size: 3rem;
-    
+    animation-name: flipInY;
+    animation-duration: 2s;
+
 }
+.name .animated {
+    
+    animation-fill-mode: both;
+}
+
+
 .name h4{
     font-size: medium;
     margin-top: 1rem;
