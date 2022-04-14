@@ -406,7 +406,22 @@ a{
     border: rgba(211, 211, 211, 0.74);
 
 }
+ .proj2{
+    
+    width: 28%;
+    height: 450px;
+    margin-left: 10rem; 
+    box-shadow: 5px 5px 8px #e6e6e6;;
+    border: rgba(211, 211, 211, 0.74);
+
+}
 .proj1 p{
+    font-size: 22px;
+    font-weight: bold;
+    padding-top: 2rem;
+    margin-bottom: 2rem;
+}
+.proj2 p{
     font-size: 22px;
     font-weight: bold;
     padding-top: 2rem;
@@ -417,6 +432,11 @@ a{
     font-size: 16px;
     margin-bottom: 2rem;
 }
+.proj2 .info{
+    margin-top: 1rem;
+    font-size: 16px;
+    margin-bottom: 6rem;
+}
 
 
 #Project .clone .a1{
@@ -424,10 +444,34 @@ a{
     background-color: transparent;
     width: 150px;
 }
+#Project .clone2 .a1{
+    float: left;
+    background-color: transparent;
+    width: 150px;
+}
 .clone a img{
     width: 35%;
 }
+.clone2 a img{
+    width: 35%;
+}
 #Project .clone .a2{
+    float: right;
+    width: 100px;
+    height: 30px;
+    outline: none;
+    border-radius: 4px;
+    font-size: 14px;
+    margin-bottom: 15px;
+    transition: .3s;
+    background-color: #51989d;
+    border: 1px solid #51989d;
+    color: #fff;
+    margin-right: 3.5em;
+    margin-top: 1rem;
+    padding-top: .5rem;
+}
+#Project .clone2 .a2{
     float: right;
     width: 100px;
     height: 30px;
