@@ -585,7 +585,14 @@ a{
     color: #51989d;
 }
 
-@media (max-width: 550px){
+@media (max-width: 500px){
+    
+    *{
+        margin: 0;
+        padding: 0;
+
+    }
+
     .logo{
         display: none;
     }
@@ -594,13 +601,13 @@ a{
 
     } */
     .nav-items{
-        width: 80%;
+        width: 100%;
         text-align: center;
         justify-content: center;
-        padding-right: 3rem;
+        position:relative
     }
     #Home .name{
-        width: 80%;
+        width: 100%;
     }
     #Home .name h1{
         font-size: 25px;
@@ -613,4 +620,37 @@ a{
     #Home .img{
         display: none;
     }
+    #About h1{
+        font-size: 25px;
+    }
+    #About .div-p{
+        width: 110%;
+        margin: 0;
+    }
+    #About .about-p{
+        width: 100%;
+        font-size: 14px;
+        font-weight: 300;
+        text-align: center;
+        letter-spacing: 1px;
+       
+
+    }
+    #About .about-img {
+        flex-direction: column;
+        width: 100%;
+        margin-top: 2rem;
+    }
+    #About .about-img img{
+        width: 20px;
+        height: 20px;
+        
+    }
+    #About .about-img .logo{
+        padding-bottom: 1rem;
+    }
+    #About .logo p{
+        margin-top: 0;
+    }
+
 }
