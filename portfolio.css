@@ -74,6 +74,7 @@ a{
 }
 #Home{
     margin-top: 15rem;
+    margin-bottom: 8rem;
 }
 #Home .name{
     float: left;
@@ -99,10 +100,11 @@ a{
     padding-top: 6px;
     padding-left: 28px;
     padding-right: 80px;
-    padding-bottom: 6px;
+    /* padding-bottom: 2px; */
     background:  transparent;
     cursor: pointer;
     background-color: #51989d;
+    color: #fff;
     border: 1px solid #51989d;
 } 
 #Home .name img{
@@ -126,6 +128,10 @@ a{
 .name .animated {
     
     animation-fill-mode: both;
+}
+#Home .link a{
+    margin-bottom: 3rem;
+    width: 300px;
 }
 
 
@@ -577,4 +583,30 @@ a{
     justify-content: center;
     font-size: 12px;
     color: #51989d;
+}
+
+@media (max-width: 550px){
+    .logo{
+        display: none;
+    }
+    .nav-items{
+        /* padding-left: -3rem; */
+        text-align: center;
+        justify-content: center;
+        padding-right: 3rem;
+    }
+    #Home .name{
+        width: 80%;
+    }
+    #Home .name h1{
+        font-size: 25px;
+    }
+    #Home .name h4{
+        font-size: small;
+        font-weight: 400;
+
+    }
+    #Home .img{
+        display: none;
+    }
 }
