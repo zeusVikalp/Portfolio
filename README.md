@@ -1,0 +1,1 @@
+Enthusiastic and passionate aspiring full-stack developer with a specialization in MERN stack. A team player who is dedicated to building websites using the best UI/UX designs. Looking forward to utilizing my skills in a challenging work environment.
