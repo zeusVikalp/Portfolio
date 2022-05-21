@@ -100,7 +100,7 @@ a{
     padding-top: 6px;
     padding-left: 28px;
     padding-right: 80px;
-    /* padding-bottom: 2px; */
+    padding-bottom: 6px;
     background:  transparent;
     cursor: pointer;
     background-color: #51989d;
@@ -589,8 +589,12 @@ a{
     .logo{
         display: none;
     }
+    /* .container1{
+        max-width: fit-content;
+
+    } */
     .nav-items{
-        /* padding-left: -3rem; */
+        width: 80%;
         text-align: center;
         justify-content: center;
         padding-right: 3rem;
